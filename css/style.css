@@ -1,0 +1,88 @@
+body{
+    background-color: lightgray;
+    font: 15px, Arial Helvetica sans-serif;
+    font-weight: bold;
+}
+/** Global **/
+a{
+    text-decoration: underline;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+header h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    font-weight: bolder;
+}
+.container{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: lighter;
+}
+.container p a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.image-1{
+    width: 80%;
+    height: 30%;
+    padding-left: 150px;
+}
+p{
+    text-align: center;
+}
+img{
+    width: 80%;
+    height: 30%;
+    padding-left: 70px;
+}
+.my-form{
+    background-color: black;
+}
+.my-form h3{
+    color: palevioletred;
+    text-align: center;
+}
+.my-form form input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    margin-left: 150px;
+}
+.my-form form button{
+    color: white;
+    background-color: palevioletred;
+}
+.my-footer{
+    background-color: black;
+    color: white;
+}
+.my-footer h2{
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;  
+}
+.my-footer h4{
+    text-align: center;
+    font-weight: bold;
+}
+@media(max-width:768px){
+    header h1,
+    .container,
+    .image-1,
+    p,
+    img,
+    .my-form,
+    .my-form form input,
+    .my-form form button,
+    .my-footer{
+        text-align: center;
+        width: 100%;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+}
